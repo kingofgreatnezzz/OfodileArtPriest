@@ -1,19 +1,15 @@
-const logotext = "{Initials Here}";
+const logotext = "{OfodileArtPriest}";
 const meta = {
-    title: "{Your name}",
-    description: "I'm {Your name}, a technologist and cybersecurity enthuist.",
+    title: "{ofodile Art Priest}",
+    description: "My Art Portfolio",
 };
 
 const introdata = {
-    title: "Hi, I'm {Your Name}",
+    title: "Hi, I'm Ofodile Art Priest",
     animated: {
-        first: "Technologist",
+        first: "Artist",
         second: "Visionary",
-        third: "Ethical Hacker",
-        fourth: "Programmer",
-        fifth: "Malware Developer",
-        sixth: "Analyst",
-        // add more if you'd like but make sure to update /src/pages/home/index.js Line 29
+        third: "Business",
     },
     description: "Dedicated technology enthusiast with an insatiable curiosity for unraveling the complexities of our digital world.",
     your_img_url: "https://i.ibb.co/wRjcnGL/me.jpg",
@@ -23,6 +19,7 @@ const dataabout = {
     title: "Who am I?",
     aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 };
+
 const worktimeline = [{
         jobtitle: "Example 1",
         where: "Google",
@@ -150,6 +147,7 @@ const socialprofils = {
     github: "https://github.com/",
     linkedin: "https://linkedin.com/",
 };
+
 export {
     meta,
     dataabout,
