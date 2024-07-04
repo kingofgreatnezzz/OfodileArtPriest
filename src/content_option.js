@@ -16,7 +16,7 @@ import art15 from "../src/assets/images/arts/art15.png";
 import art16 from "../src/assets/images/arts/art16.png";
 import art17 from "../src/assets/images/arts/art17.png";
 import art18 from "../src/assets/images/arts/art18.png";
-import Logo from "../src/assets/images/arts/artpriestLogo.png";
+import Logo from "../src/assets/images/arts/logo.jpeg";
 
 
 const images = [
@@ -54,69 +54,52 @@ const introdata = {
   animated: {
     first: "Artist",
     second: "Visionary",
-    third: "Business",
+    third: "Entrepreneur",
   },
   description:
-    "Dedicated technology enthusiast with an insatiable curiosity for unraveling the complexities of our digital world.",
+    "Ofodile ArtPriest is a masterful artist renowned for her exquisite ability to capture the essence of life's beauty on canvas. With a deft touch and a visionary eye, her work transcends the ordinary, inviting viewers into a world where colors dance and emotions come alive. OfodileArtPriest's art is a testament to his unwavering passion and exceptional skill, making him a cherished name in the contemporary art scene.",
   your_img_url: images[18],
 };
 
 const dataabout = {
   title: "Who am I?",
-  aboutme:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  aboutme: "OfodileArtPriest, artistry is more than a passion—it's a divine calling. Renowned for its stunning visual narratives and masterful technique, OfodileArtPriest brings life to every canvas with a blend of vivid colors and intricate details. Each piece is a journey, a story told through the hands of an artist with unparalleled skill and a profound understanding of the human experience. Embrace the extraordinary with OfodileArtPriest, where every artwork is a testament to the beauty and complexity of life."   
 };
 
 const worktimeline = [
   {
-    jobtitle: "Example 1",
-    where: "Google",
-    date: "2023",
+    jobtitle: "Life In My City",
+    where: "ImT COnference Halls",
+    date: "2022",
   },
   {
     jobtitle: "Example 2",
     where: "Micosoft",
     date: "2022",
   },
-  {
-    jobtitle: "Example 3",
-    where: "Meta",
-    date: "2021",
-  },
 ];
 
 const skills = [
   {
-    name: "Python",
+    name: "Painting",
   },
 
   {
-    name: "C",
+    name: "Sculpture",
   },
 
   {
-    name: "Java",
+    name: "Body Art",
   },
 
   {
-    name: "Bash",
+    name: "Model",
   },
 
   {
-    name: "Powershell",
+    name: "Fashion",
   },
 
-  {
-    name: "Reverse Engineering",
-  },
-
-  {
-    name: "Web-Exploitation",
-  },
-
-  {
-    name: "Network Exploitation",
-  },
 ];
 
 const dataportfolio = [
