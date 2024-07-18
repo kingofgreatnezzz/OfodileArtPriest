@@ -18,7 +18,7 @@ export default function Artwork() {
               <p className='text-base text-black'>{data.name}</p>
               <p className='price text-green-600 pb-1'> <strong className='text-black'>price:</strong>${data.price}</p>
               </div>
-              <Link to={""} className='add-to-cart flex items-center justify-center bg-black text-white p-2 rounded'>
+              <Link to={"https://wa.me/+2348133580553/"} className='add-to-cart flex items-center justify-center bg-black text-white p-2 rounded'>
                 Add To Cart <FaCartShopping className="ml-2" />
               </Link>
             </div>
