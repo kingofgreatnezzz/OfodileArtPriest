@@ -63,18 +63,12 @@ const introdata = {
 
 const dataabout = {
   title: "Who am I?",
-  aboutme: "OfodileArtPriest, artistry is more than a passion—it's a divine calling. Renowned for its stunning visual narratives and masterful technique, OfodileArtPriest brings life to every canvas with a blend of vivid colors and intricate details. Each piece is a journey, a story told through the hands of an artist with unparalleled skill and a profound understanding of the human experience. Embrace the extraordinary with OfodileArtPriest, where every artwork is a testament to the beauty and complexity of life."   
-};
+  aboutme: "Ofodile ArtPriest is a masterful artist renowned for his exquisite ability to capture the essence of life’s beauty on canvas. With a deft touch and a visionary eye, his work transcends the ordinary, inviting viewers into a world where colors dance and emotions come alive. Ofodile ArtPriest’s art is a testament to his unwavering passion and exceptional skill, making him a cherished name in the contemporary art scene"};
 
 const worktimeline = [
   {
     jobtitle: "Life In My City",
     where: "ImT COnference Halls",
-    date: "2022",
-  },
-  {
-    jobtitle: "Example 2",
-    where: "Micosoft",
     date: "2022",
   },
 ];
@@ -93,10 +87,6 @@ const skills = [
   },
 
   {
-    name: "Model",
-  },
-
-  {
     name: "Fashion",
   },
 
@@ -105,117 +95,117 @@ const skills = [
 const dataportfolio = [
   {
     img: images[0],
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    name:
+      "The wisdom of life consists iials.",
+    price: "130",
   },
   {
     img: images[1],
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    name:
+      "The wisdom of life consiss.",
+    price: "500",
   },
   {
     img: images[2],
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    name:
+      "The wisdom of life .",
+    price: "450",
   },
   {
     img: images[3],
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    name:
+      "The wisdom of life consists in the",
+      price: "470"
   },
   {
     img: images[4],
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "The wisdom of life consists in the als.",
+    price: "200",
   },
   {
     img: images[5],
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    name:
+      "The wisdom of life consists in the als.",
+    price: "280",
   },
   {
     img: images[6],
-    description:
+    name:
       "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    price: "500",
   },
   {
     img: images[7],
-    description:
+    name:
       "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    price: "528",
   },
   {
     img: images[8],
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    name:
+      "The wisdom of life consists in tals.",
+    price: "199",
   },
   {
     img: images[9],
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    name:
+      "The wisdom of life consists in the als.",
+    price: "230",
   },
   {
     img: images[10],
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "The wisdom of life consists in the els.",
+    price: "277",
   },
   {
     img: images[11],
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    name:
+      "The wisdom of life consists in the als.",
+    price: "199",
   },
   {
     img: images[12],
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    name:
+      "The wisdom of life consists in the als.",
+    price: "299",
   },
   {
     img: images[13],
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    name:
+      "The wisdom of life consists in tessentials.",
+    price: "297",
   },
   {
     img: images[14],
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "The wisdom of life consists in thssentials.",
+    price: "384",
   },
   {
     img: images[15],
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    name:
+      "The wisdom of life consists ion-essentials.",
+    price: "298",
   },
   {
     img: images[16],
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    name:
+      "The wisdom of life consists non-essentials.",
+    price: "347",
   },
   {
     img: images[17],
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    name:
+      "The wisdom of life consists non-essentials.",
+    price: "238",
   },
   {
     img: images[18],
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    name:
+      "The wisdom of life consists in-essentials.",
+    price: "120",
   },
 ];
 
