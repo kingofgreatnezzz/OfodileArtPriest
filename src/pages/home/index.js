@@ -2,10 +2,18 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
-import { introdata, meta } from "../../content_option";
+import {
+  FaPinterest,
+  FaInstagram,
+  FaWhatsapp,
+  FaFacebook,
+} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { introdata, meta, socialprofils } from "../../content_option";
 import Artwork from "../../components/Art/Artwork";
-import port from "../../../src/assets/images/Expression.jpg"
+import port from "../../../src/assets/images/Expression.jpg";
 import backpic from "../../assets/images/backk.jpg";
+import { Link } from "react-router-dom";
 
 const backimg = {
   backgroundImage: `url(${backpic})`,
@@ -28,16 +36,44 @@ export const Home = () => {
           className="intro_sec d-block d-lg-flex align-items-center justify-center"
         >
           {/* image side */}
-          <div className="h-80 w-80 bg-purple-700 rounded-full m-8 relative">
-          <img src={port} alt="portfolio" className="rounded-full" width={500} height={500}/>
+          <div className="flex flex-col justify-center items-center pt-3">
+            <div className="h-80 w-80 bg-purple-700 rounded-full relative">
+              <img
+                src={port}
+                alt="portfolio"
+                className="rounded-full"
+                width={500}
+                height={500}
+              />
+            </div>
+
+            <div className="flex gap-2 text-white hover:text-gray-600 pt-3">
+              <Link to={socialprofils.instagram}>
+                <FaXTwitter className="h-6 w-6 hover:text-gray-600 " />
+              </Link>
+              <Link to={socialprofils.instagram}>
+                <FaInstagram className="h-6 w-6  hover:text-gray-300 " />
+              </Link>
+              <Link to={socialprofils.whatsapp}>
+                <FaWhatsapp className="h-6 w-6  hover:text-gray-300 " />
+              </Link>
+
+              <Link to={socialprofils.facebook}>
+                <FaFacebook className="h-6 w-6 hover:text-gray-300 " />
+              </Link>
+
+              <Link to={socialprofils.pintrest}>
+                <FaPinterest className="h-6 w-6 hover:text-gray-300" />
+              </Link>
+            </div>
           </div>
           {/* text side */}
 
-          <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center md:pt-14">
-            <div className="align-self-center ">
-              <div className="intro mx-auto  backdrop-blur p-3 rounded-lg ">
-                <h2 className="mb-1x text-lg ">{introdata.title}</h2>
-                <h1 className="fluidz-48 mb-1x text-yellow-600">
+          <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center md:pt-14 mt-3">
+            <div className="align-self-center pb-3">
+              <div className="intro mx-auto  backdrop-blur p-2 rounded-lg ">
+                <h2 className="mb-1x text-lg">{introdata.title}</h2>
+                <h1 className="fluidz-48 text-yellow-600">
                   <Typewriter
                     options={{
                       strings: [
@@ -54,7 +90,7 @@ export const Home = () => {
                     }}
                   />
                 </h1>
-                <p className="mb-1x">{introdata.description}</p>
+                <p className="">{introdata.description}</p>
                 {/* buttons place */}
               </div>
             </div>

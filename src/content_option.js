@@ -155,7 +155,7 @@ const dataportfolio = [
   },
   {
     img: images[10],
-    description:
+    name:
       "The wisdom of life consists in the els.",
     price: "277",
   },
@@ -179,7 +179,7 @@ const dataportfolio = [
   },
   {
     img: images[14],
-    description:
+    name:
       "The wisdom of life consists in thssentials.",
     price: "384",
   },
@@ -221,7 +221,10 @@ const contactConfig = {
 
 const socialprofils = {
   github: "https://github.com/",
-  linkedin: "https://linkedin.com/",
+  instagram: "https://www.instagram.com/ofodile_artpriest/",
+  pintrest: "https://www.pinterest.com/ofodiletheartpriest/",
+  facebook: "https://web.facebook.com/ofodile-artpriest-gallery/",
+  whatsapp: "https://wa.me/+2348133580553/"
 };
 
 export {
