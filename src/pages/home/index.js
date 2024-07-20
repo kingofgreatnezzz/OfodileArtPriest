@@ -11,7 +11,7 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 import { introdata, meta, socialprofils } from "../../content_option";
 import Artwork from "../../components/Art/Artwork";
-import port from "../../../src/assets/images/Expression.jpg";
+import port from "../../../src/assets/images/ofodile.jpeg";
 import backpic from "../../assets/images/backk.jpg";
 import { Link } from "react-router-dom";
 
@@ -36,14 +36,14 @@ export const Home = () => {
           className="intro_sec d-block d-lg-flex align-items-center justify-center"
         >
           {/* image side */}
-          <div className="flex flex-col justify-center items-center pt-3">
-            <div className="h-80 w-80 bg-purple-700 rounded-full relative">
+          <div className="flex flex-col justify-center items-center pt-5">
+            <div className="h-80 w-80 bg-purple-700 rounded-full relative ">
               <img
                 src={port}
                 alt="portfolio"
-                className="rounded-full"
+                className="rounded-full overflow-hidden object-cover h-80 w-96 "
                 width={500}
-                height={500}
+                height={400}
               />
             </div>
 

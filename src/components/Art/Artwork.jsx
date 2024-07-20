@@ -1,7 +1,6 @@
 import React from "react";
 import "./art.css";
 import { dataportfolio, socialprofils } from "../../content_option";
-import pallet from "../../assets/images/pallete.jpg";
 import { FaCartShopping } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
