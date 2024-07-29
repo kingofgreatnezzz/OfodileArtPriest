@@ -1,31 +1,30 @@
-import art1 from "../src/assets/images/arts/art1.png";
-import art2 from "../src/assets/images/arts/art2.png";
-import art3 from "../src/assets/images/arts/art3.png";
-import art4 from "../src/assets/images/arts/art5.png";
-import art5 from "../src/assets/images/arts/art6.png";
-import art6 from "../src/assets/images/arts/art4.png";
+import art1 from "../src/assets/images/arts/art1.jpg";
+import art2 from "../src/assets/images/arts/art2.jpeg";
+import art3 from "../src/assets/images/arts/art3.jpeg";
+import art4 from "../src/assets/images/arts/art4.jpeg";
+import art5 from "../src/assets/images/arts/art5.png";
+import art6 from "../src/assets/images/arts/art6.jpeg";
 import art7 from "../src/assets/images/arts/art7.png";
-import art8 from "../src/assets/images/arts/art8.png";
+import art8 from "../src/assets/images/arts/art8.jpeg";
 import art9 from "../src/assets/images/arts/art9.png";
-import art10 from "../src/assets/images/arts/art10.png";
+import art10 from "../src/assets/images/arts/art10.jpeg";
 import art11 from "../src/assets/images/arts/art11.png";
-import art12 from "../src/assets/images/arts/art12.png";
-import art13 from "../src/assets/images/arts/art13.png";
-import art14 from "../src/assets/images/arts/art14.png";
-import art15 from "../src/assets/images/arts/art15.png";
-import art16 from "../src/assets/images/arts/art16.png";
-import art17 from "../src/assets/images/arts/art17.png";
-import art18 from "../src/assets/images/arts/art18.png";
-import Logo from "../src/assets/images/arts/logo.jpeg";
-
+import art12 from "../src/assets/images/arts/art12.jpeg";
+import art13 from "../src/assets/images/arts/art13.jpeg";
+import art14 from "../src/assets/images/arts/art14.jpeg";
+import art15 from "../src/assets/images/arts/art15.jpeg";
+import art16 from "../src/assets/images/arts/art16.jpeg";
+import art17 from "../src/assets/images/arts/art17.jpeg";
+import art18 from "../src/assets/images/arts/art18.jpeg";
+import art19 from "../src/assets/images/arts/art19.jpeg";
 
 const images = [
   art1,
   art2,
   art3,
+  art4,
   art5,
   art6,
-  art4,
   art7,
   art8,
   art9,
@@ -38,7 +37,8 @@ const images = [
   art16,
   art17,
   art18,
-  Logo,
+  art19
+  
 ];
 
 export default images;
@@ -119,94 +119,95 @@ const dataportfolio = [
   },
   {
     img: images[4],
-    description:
-      "The wisdom of life consists in the als.",
-    price: "200",
-  },
-  {
-    img: images[5],
-    name:
-      "The wisdom of life consists in the als.",
-    price: "280",
-  },
-  {
-    img: images[6],
-    name:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    price: "500",
-  },
-  {
-    img: images[7],
     name:
       "The wisdom of life consists in the elimination of non-essentials.",
     price: "528",
   },
   {
-    img: images[8],
+    img: images[5],
     name:
       "The wisdom of life consists in tals.",
+    price: "199",
+  },
+  {
+    img: images[6],
+    name:
+      "The wisdom of life consists in the als.",
+    price: "230",
+  },
+  {
+    img: images[7],
+    name:
+      "The wisdom of life consists in the els.",
+    price: "277",
+  },
+  {
+    img: images[8],
+    name:
+      "The wisdom of life consists in the als.",
     price: "199",
   },
   {
     img: images[9],
     name:
       "The wisdom of life consists in the als.",
-    price: "230",
-  },
-  {
-    img: images[10],
-    name:
-      "The wisdom of life consists in the els.",
-    price: "277",
-  },
-  {
-    img: images[11],
-    name:
-      "The wisdom of life consists in the als.",
-    price: "199",
-  },
-  {
-    img: images[12],
-    name:
-      "The wisdom of life consists in the als.",
     price: "299",
   },
   {
-    img: images[13],
+    img: images[10],
     name:
       "The wisdom of life consists in tessentials.",
     price: "297",
   },
   {
-    img: images[14],
-    name:
-      "The wisdom of life consists in thssentials.",
-    price: "384",
-  },
-  {
-    img: images[15],
+    img: images[11],
     name:
       "The wisdom of life consists ion-essentials.",
     price: "298",
   },
   {
-    img: images[16],
+    img: images[12],
     name:
       "The wisdom of life consists non-essentials.",
     price: "347",
   },
   {
-    img: images[17],
+    img: images[13],
     name:
       "The wisdom of life consists non-essentials.",
     price: "238",
   },
   {
-    img: images[18],
+    img: images[14],
     name:
       "The wisdom of life consists in-essentials.",
     price: "120",
   },
+  {
+    img: images[15],
+    name:
+      "The wisdom of life consists in-essentials.",
+    price: "220",
+  },
+  {
+    img: images[16],
+    name:
+      "The wisdom of life consists in-essentials.",
+    price: "320",
+  },
+  {
+    img: images[17],
+    name:
+      "The wisdom of life consists in-essentials.",
+    price: "320",
+  },
+  {
+    img: images[18],
+    name:
+      "The wisdom of life consists in-essentials.",
+    price: "320",
+  },
+ 
 ];
 
 const contactConfig = {
