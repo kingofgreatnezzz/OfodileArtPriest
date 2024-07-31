@@ -8,7 +8,7 @@ import art7 from "../src/assets/images/arts/art7.png";
 import art8 from "../src/assets/images/arts/art8.jpeg";
 import art9 from "../src/assets/images/arts/art9.png";
 import art10 from "../src/assets/images/arts/art10.jpeg";
-import art11 from "../src/assets/images/arts/art11.png";
+import art11 from "../src/assets/images/arts/art11.jpeg";
 import art12 from "../src/assets/images/arts/art12.jpeg";
 import art13 from "../src/assets/images/arts/art13.jpeg";
 import art14 from "../src/assets/images/arts/art14.jpeg";
@@ -17,6 +17,10 @@ import art16 from "../src/assets/images/arts/art16.jpeg";
 import art17 from "../src/assets/images/arts/art17.jpeg";
 import art18 from "../src/assets/images/arts/art18.jpeg";
 import art19 from "../src/assets/images/arts/art19.jpeg";
+import art20 from "../src/assets/images/arts/artt1.jpeg";
+import art21 from "../src/assets/images/arts/artt2.jpeg";
+import art22 from "../src/assets/images/arts/artt3.jpeg";
+import art23 from "../src/assets/images/arts/artt4.jpeg";
 
 const images = [
   art1,
@@ -37,7 +41,11 @@ const images = [
   art16,
   art17,
   art18,
-  art19
+  art19,
+  art20,
+  art21,
+  art22,
+  art23,
   
 ];
 
@@ -203,6 +211,36 @@ const dataportfolio = [
   },
   {
     img: images[18],
+    name:
+      "The wisdom of life consists in-essentials.",
+    price: "320",
+  },
+  {
+    img: images[19],
+    name:
+      "The wisdom of life consists in-essentials.",
+    price: "320",
+  },
+  {
+    img: images[20],
+    name:
+      "The wisdom of life consists in-essentials.",
+    price: "320",
+  },
+  {
+    img: images[21],
+    name:
+      "The wisdom of life consists in-essentials.",
+    price: "320",
+  },
+  {
+    img: images[22],
+    name:
+      "The wisdom of life consists in-essentials.",
+    price: "320",
+  },
+  {
+    img: images[23],
     name:
       "The wisdom of life consists in-essentials.",
     price: "320",
